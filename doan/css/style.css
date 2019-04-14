@@ -1,0 +1,72 @@
+
+body , html
+{
+	background:#000000;
+
+}
+.container-fluid
+{
+	padding-right:0;
+	padding-left:0;
+}
+.header
+{
+	background:#000000;
+}
+.logo:hover
+{
+	transform: scale(1.03);
+	transition: 0.3s;
+}
+
+.navbar
+{
+	background: #444444;
+}
+.nav > li:hover
+{
+	background: #5686d3;
+}
+.container
+{
+	background: #191919;
+}
+.content
+{
+	padding-right:0;
+	padding-left:0;
+}
+.left
+{
+	list-style: none;
+	background: #191919;
+}
+.left > li
+{
+	margin-bottom: 10px;
+}
+.left > li:hover
+{
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: 0.3s;
+}
+.right
+{
+	background:#191919;
+}
+.menu > a{
+	display:inline-block;
+	padding:10px;
+	position: relative;
+}
+.footer
+{
+	color: #ffffff;
+	background: #333333;
+	margin: 0;
+}
+.navbar
+{
+	text-align: center;
+}
