@@ -33,8 +33,8 @@
 			</div>
 			<div class = "col-sm-4 col-md-4 col-lg-4 ">
 				<ul class="nav navbar-nav navbar-center">
-					<li><a href="?id=dangnhap"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					<li><a href="?id=dangki"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="?id=dangnhap"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 				</ul>
 			</div>
 		</div>
@@ -49,7 +49,7 @@
 			</button>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav ">
 				<li><a href="?id=home">Home</a></li>
 				<li><a href="#">Thể loại</a></li>
 				<li><a href="#">Steam</a></li>
@@ -103,7 +103,7 @@
 					</div> <!--end slideshow-->
 					<nav class="navbar navbar-inverse">					
 						<ul class="nav navbar-nav menu">
-							<li><a href="#">Nổi bật</a></li>
+							<li><a href="?id=noibat">Nổi bật</a></li>
 							<li><a href="#">Bán chạy</a></li>
 							<li><a href="#">Origin</a></li>
 							<li><a href="#">Battle.net</a></li>
@@ -114,6 +114,7 @@
 					if(isset($_GET['id'])) {
 						if($_GET['id']=='dangnhap')include 'dangnhap.php';
 						if($_GET['id']=='dangki') include'dangkitaikhoan.php';
+						if($_GET['id']=='noibat') include'noibat.php';
 					}
 					?>
 				</div>
@@ -134,7 +135,7 @@
 					Sơ đồ trang<br>
 					Chế độ bảo hành
 				</div>
-				<div class="col-sm-4 col-md-4 col-lg-4 text-center">
+				<div class="col-sm-4 col-md-4 col-lg-4 text-center ">
 					<h3>Ủng hộ chúng tôi</h3>
 					<i class='fab fa-twitter'   style="font-size: 40px;color:#1c1cbc"></i>
 					<i class='fab fa-facebook'  style="font-size: 40px;color:#1c1cbc"></i>

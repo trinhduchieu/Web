@@ -1,5 +1,7 @@
 ﻿<?php
-echo '<div class="row">
+echo '
+
+<div class="row">
 			<div class="col-md-5">
 				<form name="dk" onsubmit="return kiemtra();">
 					<h2>Đăng ký</h2>
