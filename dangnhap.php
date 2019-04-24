@@ -1,7 +1,6 @@
 <?php
-echo '
-<h2 style="text-align:center">Đăng nhập tài khoản</h2>
-<form method="" action="" name="formdangnhap">
+echo '<h2>Đăng nhập tài khoản</h2>
+<form method="" action="" name="formdangnhap" class="formdn" >
   <div class="imgcontainer">
     <img src="img/user.jpg" alt="Avatar" class="avatar">
   </div>
@@ -16,5 +15,6 @@ echo '
     <label>
       <input type="checkbox" checked="checked" name="remember"> Nhớ mật khẩu
     </label>
-</form>';
+</form>
+';
 ?>

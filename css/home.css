@@ -1,0 +1,38 @@
+.responsive{
+    width:50%;
+    float: left;
+}
+.responsive .gallery{
+    text-align: center;
+    float: right;
+    margin: auto;
+	margin:10px;
+	height: 300px;
+	padding: 10px;
+}
+.responsive .gallery img{
+	width: 100%;
+	height: 160px;
+}
+.responsive .gallery:hover
+{
+	-webkit-box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+	-moz-box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+	box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+	transform: scale(1.01);
+	transition: 0.5s;
+	cursor: pointer;
+
+}
+.title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.price{
+    font-size: 15px;
+    padding: 8px;
+}
+.btnthemgio
+{
+	width: 150px;
+}
